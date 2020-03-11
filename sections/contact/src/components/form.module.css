@@ -1,0 +1,60 @@
+.form {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  display: block;
+  margin: 0.75rem auto 0;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.label,
+.input {
+  display: block;
+}
+
+.label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.input {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.button {
+  background: darkblue;
+  border: 1px solid wheat;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.success,
+.error {
+  border-radius: 0.3rem;
+  display: block;
+  margin: 0.65rem auto 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+.success {
+  background: rgba(0, 255, 0, 0.1);
+  border: 1px solid green;
+  padding: 1rem;
+}
+
+
+.error {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid red;
+  padding: 1rem;
+}
